@@ -1,14 +1,17 @@
 #include <stdio.h>
 
-int main() {
+int task_1() {
     int weight;
 
     scanf(&weight);
 
     if(weight <= 60 && weight >= 90) {
-        printf("Ok")
+        printf("Ok");
     } else {
-        printf("Not ok, you are fat hahahah")
+        printf("Not ok, you are fat hahahah");
     }
+}
 
+int main() {
+    task_1();
 }
