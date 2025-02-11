@@ -1,16 +1,14 @@
 #include <stdio.h>
 
 int main() {
-    printf("Hi, %d", 11); // форматированный вывод, %d - целое число, %f - вещественное, %c - символ, 
-    putchar('*'); // вывод только одного символа
-    puts("\nСириус йооу колледж хайп"); // вывод только типа строк с \n
+    int weight;
 
-    int age = 450;
-    char name[50];
+    scanf(&weight);
 
-    scanf("%s %d", name, &age); // считывает до пробела. амперсант потому что хотим что то  поменять. В name не надо потому что это массив
-    getchar(); // читает один символ
-    gets(); // 
-    fgets(name, sizeof(name), stdin) // три параметра: куда, сколько откуда считать 
+    if(weight <= 60 && weight >= 90) {
+        printf("Ok")
+    } else {
+        printf("Not ok, you are fat hahahah")
+    }
 
 }
