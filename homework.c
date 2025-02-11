@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int task_1() {
+void task_1() {
     int weight;
 
     scanf(&weight);
